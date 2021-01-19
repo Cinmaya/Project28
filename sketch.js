@@ -39,13 +39,13 @@ function setup() {
   
  
 	
-	tree=createSprite(775,368);
+	tree=createSprite(775,340);
   tree.addImage(treeIMG)
   tree.scale=0.42;
 
-	boy=createSprite(160,550);
+	boy=createSprite(310,510);
   boy.addImage(boyIMG);
-	boy.scale=-0.125;
+	boy.scale=0.150;
 
 
 	Engine.run(engine);
